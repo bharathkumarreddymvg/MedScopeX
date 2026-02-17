@@ -1,0 +1,11 @@
+from ultralytics import YOLO
+from pathlib import Path
+
+class YOLODetector:
+    def __init__(self, weight_path):
+        weight_path = Path(weight_path)
+        self.model = YOLO(weight_path.as_posix())
+
+    def detect(self, image):
+        results = self.model(image, conf=0.4, verbose=False)
+        return results[0].boxes.xyxy.cpu().numpy()
