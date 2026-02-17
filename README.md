@@ -1,1 +1,1 @@
-MedScopeX is a smartphone-based AI screening prototype for preliminary ENT and dental risk assessment using lightweight deep learning models. This system is intended for research and educational purposes only and does not replace clinical diagnosis.
+MedScopeX is a smartphone-based AI screening prototype for preliminary ENT and dental risk using lightweight deep learning models. This system is intended for research and educational purposes only and does not replace clinical diagnosis.
